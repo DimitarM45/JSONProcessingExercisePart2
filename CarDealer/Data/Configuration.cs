@@ -2,5 +2,5 @@
 
 public static class Configuration
 {
-    public const string ConnectionString = @"Server=.;Database=CarDealer;Integrated Security=True;";
+    public const string ConnectionString = "";
 }

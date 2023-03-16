@@ -1,7 +1,7 @@
 ﻿namespace CarDealer;
 
-using DTOs.Import;
 using Models;
+using DTOs.Import;
 
 using AutoMapper;
 
@@ -12,5 +12,11 @@ public class CarDealerProfile : Profile
         CreateMap<ImportSupplierDto, Supplier>();
 
         CreateMap<ImportPartDto, Part>();
+
+        CreateMap<ImportCarDto, Car>();
+
+        CreateMap<ImportCustomerDto, Customer>();
+
+        CreateMap<ImportSaleDto, Sale>();
     }
 }

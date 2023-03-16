@@ -1,4 +1,6 @@
-﻿namespace CarDealer.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CarDealer.Models;
 
 public class Supplier
 {
