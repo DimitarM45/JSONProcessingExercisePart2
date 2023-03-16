@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace CarDealer.Migrations
+namespace CarDealer.Migrations;
 {
     public partial class FixedName : Migration
     {

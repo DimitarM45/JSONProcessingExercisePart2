@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿namespace CarDealer.DTOs.Import;
 
-namespace CarDealer.DTOs.Import;
+using Newtonsoft.Json;
 
 public class ImportPartDto
 {
